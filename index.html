@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./logo.png">
+    <title>Makeup</title>
+</head>
+<body>
+    <div class="container-flex">
+      <nav >
+        <ul>
+         
+       <li>
+        <a class="list" href="https://www.maybelline.com.ar/">Tienda</a>
+         </li>
+         <li >
+            <a class="list" href="#Uñas">Uñas</a>
+         </li>
+         <li>
+            <a class="list" href="#Ojos">Ojos</a>
+         </li>
+         <li>
+            <a class="list" href="#Labios">Labios</a>
+         </li>
+        </ul>
+    </nav>
+               
+        
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/maq1.png" class="d-block w-100" alt="fotos de maquillaje surtidos">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/MAQ2.png" class="d-block w-100" alt=" foto de sombra de ojos con brocha">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/labiales.jpg" class="d-block w-100" alt="foto de labiales">
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <div id="informacion">
+          <a name="Uñas"> 
+          <h2>Uñas</h2>
+          
+            <p> Entre los diseños de uñas y tonalidades que más van a estar presentes este año 2023, se encuentran los nail arts que van en una línea más minimalista, la manicura francesa sigue estando entre las favoritas y los esmaltes en tonos naturales, topos y nude siguen arrasando. Pero no por ello van a faltar colores más intensos o efectos tan interesantes como los esmaltes magnéticos.</p>
+        <img src="./imagenes/nair uñas.jpg" >
+        <img src="./imagenes/esmaltes.jpg" >
+        
+        <img src="./imagenes/esmal3.jpg" >
+        <a name="Labios">
+            <h2>Labios</h2>
+         
+          <p> Mientras que los labios definidos y llamativos siempre han sido una tendencia popular otros años, 2023 retoma la vía de los colores más suaves, tonos que destacan ligeramente el color natural del labio o el acabado brillante y gloss.</p>
+          <img src="./imagenes/brillo.jpg">
+          <img src="./imagenes/brillo2.jpg">
+          <a name="Ojos"></a>
+           <h2>Ojos</h2>
+           
+            <p>Sin duda, esta temporada va a estar totalmente dominada por los Siren Eyes que son los nuevos Cat Eyes y se ha convertido en la nueva sensación de maquillaje en TikTok. El eyeliner llega a otro nivel, con sombras en tonos champán y tierra dando una ilusión de lifting con hilo</p>
+            <img src="./imagenes/ojos.jpg">
+            <img src="./imagenes/masca1.jpg">
+             
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Contanos tu estilo de Make up preferido </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button type="button" id="btn" class="bot">Enviar</button>
+          </div>
+
+
+           <form id="agregarTarea" action="">
+              <label for="descripcion">Visitaste nuestras paginas recomendadas</label>
+              <input id="descripcion" type="text" required>
+              <button type="submit">Enviar</button>
+            </form>
+             <table id="tablee">
+             
+              <thead>
+                <tr>
+                <th>Numero</th>
+                <th>Nombre de pagina</th>
+                <th>estado</th>
+                </tr>
+              
+              </thead>
+              <tbody>
+
+
+              </tbody>
+                </table> 
+                <dialog id="todoModal">
+                  <form id="editarFormulario">
+                    <label for="todoId">Numero:</label>
+                    <input type="text" id="todoId" disabled >
+                    <label for="todoDescripcionModal">Marca:</label>
+                    <input type="text" id="todoDescripcionModal" >
+                    <p> Uso: <span id="statusText"> </span></p>
+                    <button type="button" id="botonDelete">Borrar</button>
+                    <button type="submit" id="botonUpdate">Modificar</button>
+                    <button type="button" id="botonEstado">Cambiar Estado</button>
+                    <button type="button" id="botonCerrar">cerrar</button>
+                  </form>
+                </dialog>
+
+             
+         
+            
+
+
+
+
+          <footer>
+            <p>Te dejamos los mejores instagram con todas las tendencias en Make Up</p>
+              <img src="./imagenes/cd939-logo-instagram-png.png"> 
+              <a class="footer" href="https://www.instagram.com/mazz_makeup/?hl=es">mazz_makeup - </a>
+              <a class="footer" href="https://www.instagram.com/wakeupandmakeup/?hl=es">  wakeupandmakeup - </a>
+              <a class="footer" href="https://www.instagram.com/makeupforever/?hl=es">  makeupforever</a>
+          </footer>
+
+
+
+          <script src="./index.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </div>
+    
+</body>
+</html>
